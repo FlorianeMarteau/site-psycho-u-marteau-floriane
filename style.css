@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: roberto, sans-serif;
+}
+
+
+
+.navbar-expand {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+.navbar navbar-expand-md{
+	margin:0px 0px 0px;
+	padding:0px 0px;
+}
+
+button.navbar-toggler{
+	width:50px;
+}
+
+i.bi.bi-list{
+	width:20px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #03989E;
+    border: 1px solid #03989E;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler-icon button{
+    color: black;
+    background-color: #03989E;
+    border-color: #03989E;
+    font-weight: bold;
+}
+
+ button{
+ 	color: white;
+    background-color: #03989E;
+    border-color: #03989E;
+    font-weight: bold;
+    width: 300px; height: 50px
+ }
+
+ button:hover{
+	background-color: #00C3CB;
+  	color: white;
+  	border-color: #00C3CB;
+ }
+
+
+.text-light {
+    color: #03989E!important;
+	font-weight: bold;
+}
+
+.nav-link {
+    display: inline;
+    padding: .5rem 1rem;
+}
+
+.jumbotron-hero {
+    height: 450px;
+    background-image: linear-gradient(to bottom, rgba(15, 5, 107, 0.52), rgba(0, 0, 0, 0.73)), url(img/bien-etre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.btn-primary {
+    color: #03989E;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover{
+  	background-color: #03989E;
+  	color: white;
+  	border-color: #03989E;
+}
+
+.h1, h1{
+	color: #03989E;	
+}
+
+.h3, h3{
+	color: #38B6FF;	
+}
+
+.p, p{
+	text-align: justify;
+}
+
+.bg-light {
+    background-color: #D6F0FF!important;
+}
+
+
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #03989E;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    color: #FFFFFF;
+    background-color: #03989E;
+    border-color: #03989E;
+    font-weight: bold;
+}
+
+.btn-group-lg>.btn, .btn-lg:hover{
+  	background-color: #FFFFFF;
+  	color: #03989E;
+  	border-color: #03989E;
+}
+
+.footer-inner .fsocial li a {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    margin: 0px 7px;
+}
+
+
+.fscocial {
+	border:2px solid #fff;
+	font-weight: bold;
+ 	text-align: center;
+}
+
+img, svg {
+	vertical-align: middle;
+	margin: 20px;
+}
